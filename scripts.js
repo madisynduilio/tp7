@@ -31,34 +31,7 @@ function loadFileInto(fromFile, whereTo) {
 
 window.onload = function() {
   
-   loadFileInto("ingredients.html", "#ingredients ul");
-   loadFileInto("equipment.html", "#equipment ul");
-  loadFileInto("directions.html", "#directions ol");
   
-  
-
-  document.querySelector("#heroBanner h1").classList.add("tp");
-
-  document.querySelector("#heroBanner h1").onclick = function() {
-    this.classList.toggle('black');
-
-  }
-
-  document.querySelector("#recipeColumns #ingredients").onclick = function() {
-    this.classList.toggle("tpShow");
-  }
-
-   document.querySelector("#recipeColumns #equipment").onclick = function() {
-    this.classList.toggle("tpShow");
-  }
-
-    document.querySelector("#recipeColumns #directions").onclick = function() {
-    this.classList.toggle("tpShow");
-  }
-
-setTimeout(function() {
-document.querySelector("#recipeColumns #equipment ul").innerHTML += "<li>A love for sweet potato</li>";
-}, 100); 
 
 
   
