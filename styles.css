@@ -102,17 +102,7 @@ ol {
   width: 33%;
 }
 
-#recipeColumns #ingredients ul {
-  display: none;
-}
 
-#recipeColumns #equipment ul {
-  display: none;
-}
-
-#recipeColumns #directions ol {
-  display: none;
-}
 
 #recipeColumns #ingredients.tpShow ul,
 #recipeColumns #equipment.tpShow ul,
